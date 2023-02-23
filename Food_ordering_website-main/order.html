@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Your Food</title>
+    
+
+
+
+<style>
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+
+
+
+</head>
+<body>
+    
+
+  <div class="MiniCartContainer">
+    {MiniCart}
+</div>
+
+
+<div class="about-section">
+    <h1>Delecious Food Order</h1>
+    <p>Your City Food At YOur Doorstep.</p>
+  <!--  <p>Resize the browser window to see that this page is responsive by the way.</p>-->
+  </div>
+  
+  <h2 style="text-align:center">!!Avilable Restaurants!!</h2>
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <img src="#" alt="img" style="width:100%">
+        <div class="container">
+             <h2>Jaika Restaurant</h2>
+          <p class="title"></p>
+          <p>Forbesganj</p>
+          <p> <button  class="button" onclick="document.location='Resturants menu/jaikamenu.html'">Menu Avilable</button></p>
+        </div>
+      </div>
+    </div>
+  
+  
+   
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <img src="#" alt="img" style="width:100%">
+          <div class="container">
+               <h2>Cake Palace</h2>
+            <p class="title"></p>
+            <p>Forbesganj</p>
+            <p></p>
+            <p> <button  class="button" onclick="document.location='Resturants menu/cake.html'">Menu Avilable</button></p>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="#" alt="img" style="width:100%">
+            <div class="container">
+                 <h2>Laziz Pizza</h2>
+              <p class="title"></p>
+              <p>Forbesganj<p>
+              <p></p>
+              <p> <button  class="button" onclick="document.location='Resturants menu/pizza.html'">Menu Avilable</button></p>
+            </div>
+          </div>
+        </div>
+
+       
+        <div class="row">
+          <div class="column">
+            <div class="card">
+              <img src="#" alt="img" style="width:100%">
+              <div class="container">
+                   <h2>Darjeeling momos</h2>
+                <p class="title"></p>
+                <p>Forbesganj</p>
+                <p></p>
+                <p> <button  class="button" onclick="document.location='Resturants menu/momo.html'">Menu Avilable</button></p>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="row">
+            <div class="column">
+              <div class="card">
+                <img src="#" alt="img" style="width:100%">
+                <div class="container">
+                     <h2>Taste Of Tea</h2>
+                  <p class="title"></p>
+                  <p>Forbesganj</p>
+                  <p></p>
+                  <p> <button  class="button" onclick="document.location='Resturants menu/tea.html'">Menu Avilable</button></p>
+                </div>
+              </div>
+            </div>
+
+
+            
+            <div class="row">
+              <div class="column">
+                <div class="card">
+                  <img src="#" alt="img" style="width:100%">
+                  <div class="container">
+                       <h2>sweets</h2>
+                    <p class="title"></p>
+                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                    <p></p>
+                   
+                   <p> <button  class="button" onclick="document.location='Resturants menu/sweets.html'">Menu Avilable</button></p>
+                  </div>
+                </div>
+              </div>
+
+           
+              <div class="row">
+                <div class="column">
+                  <div class="card">
+                    <img src="#" alt="img" style="width:100%">
+                    <div class="container">
+                         <h2>Food Junction</h2>
+                      <p class="title"></p>
+                      <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                      <p></p>
+                      <p> <button  class="button" onclick="document.location='Resturants menu/foodjun.html'">Menu Avilable</button></p>
+                    </div>
+                  </div>
+                </div>
+
+  </div>
+</body>
+</html>
+
